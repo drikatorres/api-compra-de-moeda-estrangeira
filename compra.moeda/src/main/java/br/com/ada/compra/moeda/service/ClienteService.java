@@ -1,5 +1,6 @@
 package br.com.ada.compra.moeda.service;
 
+import br.com.ada.compra.moeda.exception.EntidadeDuplicadaException;
 import br.com.ada.compra.moeda.model.Cliente;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.repository.CrudRepository;
