@@ -3,20 +3,21 @@ package br.com.ada.compra.moeda.controller;
 import br.com.ada.compra.moeda.dto.ClienteDTO;
 import br.com.ada.compra.moeda.model.Cliente;
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.repository.CrudRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
+import br.com.ada.compra.moeda.exception.EntidadeDuplicadaException;
+import br.com.ada.compra.moeda.service.ClienteService;
 
 import java.net.URI;
+import java.util.Optional;
 
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/api/cliente")
 public class ClienteController {
-    // private final ClienteService service;
-    private final CrudRepository<Cliente, String> service;
+    private final ClienteService service;
 
     @GetMapping("{cpf}")
     public ResponseEntity<ClienteDTO> getByCpf(@PathVariable String cpf) {
@@ -24,10 +25,9 @@ public class ClienteController {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Não foi informado um CPF!");
         }
         String clearCpf = cpf.replaceAll("[\\.-]", "");
-        //Optional<Cliente> encontrado = service.getById(cpf);
-        //Cliente entity = encontrado.orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Não foi localizada um cliente com o CPF informado!"));
-        //return ResponseEntity.ok(ClienteDTO.of(entity));
-        return null;
+        Optional<Cliente> encontrado = service.getById(cpf);
+        Cliente entity = encontrado.orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Não foi localizada um cliente com o CPF informado!"));
+        return ResponseEntity.ok(ClienteDTO.of(entity));
     }
 
     @PostMapping()
@@ -42,13 +42,13 @@ public class ClienteController {
         if (cliente.getNome() == null || cliente.getNome().isBlank()) {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Não foi informado um cliente com Nome válido");
         }
-       /* try {
-            service.adicionar(cliente.toEntity());
+        try {
+            service.add(cliente.toEntity());
         } catch (EntidadeDuplicadaException e) {
             throw new ResponseStatusException(HttpStatus.CONFLICT, "Já existe um cliente com o CPF informado");
         } catch (Exception e) {
             throw new ResponseStatusException(HttpStatus.INTERNAL_SERVER_ERROR, "Ocorreu um erro desconhecido");
-        } */
+        }
         return ResponseEntity.created(URI.create("/api/cliente/" + clearCpf)).build();
     }
 }
