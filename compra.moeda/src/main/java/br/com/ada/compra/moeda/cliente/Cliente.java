@@ -1,4 +1,4 @@
-package br.com.ada.compra.moeda.model;
+package br.com.ada.compra.moeda.cliente;
 
 import lombok.*;
 

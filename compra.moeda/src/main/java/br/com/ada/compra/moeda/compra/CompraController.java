@@ -1,9 +1,6 @@
-package br.com.ada.compra.moeda.controller;
+package br.com.ada.compra.moeda.compra;
 
-import br.com.ada.compra.moeda.dto.CompraDTO;
-import br.com.ada.compra.moeda.exception.EntidadeDuplicadaException;
-import br.com.ada.compra.moeda.model.Compra;
-import br.com.ada.compra.moeda.service.CompraService;
+import br.com.ada.compra.moeda.comum.EntidadeDuplicadaException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

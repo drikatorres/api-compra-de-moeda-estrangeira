@@ -1,4 +1,4 @@
-package br.com.ada.compra.moeda.dto;
+package br.com.ada.compra.moeda.cotacao;
 
 
 public class CotacaoDTO {

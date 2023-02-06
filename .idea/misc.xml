@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/compra.moeda/pom.xml" />
+        <option value="$PROJECT_DIR$/compra.moeda/src/cotacao/pom.xml" />
       </list>
     </option>
   </component>

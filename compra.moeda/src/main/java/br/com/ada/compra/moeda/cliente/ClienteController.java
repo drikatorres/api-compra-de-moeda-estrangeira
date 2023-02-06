@@ -1,14 +1,11 @@
-package br.com.ada.compra.moeda.controller;
+package br.com.ada.compra.moeda.cliente;
 
-import br.com.ada.compra.moeda.dto.ClienteDTO;
-import br.com.ada.compra.moeda.model.Cliente;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
-import br.com.ada.compra.moeda.exception.EntidadeDuplicadaException;
-import br.com.ada.compra.moeda.service.ClienteService;
+import br.com.ada.compra.moeda.comum.EntidadeDuplicadaException;
 
 import java.net.URI;
 import java.util.Optional;

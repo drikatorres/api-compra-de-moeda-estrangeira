@@ -1,5 +1,6 @@
-package br.com.ada.compra.moeda.model;
+package br.com.ada.compra.moeda.compra;
 
+import br.com.ada.compra.moeda.comum.Moeda;
 import lombok.*;
 
 import javax.persistence.Entity;

@@ -1,7 +1,6 @@
-package br.com.ada.compra.moeda.dto;
+package br.com.ada.compra.moeda.compra;
 
-import br.com.ada.compra.moeda.model.Compra;
-import br.com.ada.compra.moeda.model.Moeda;
+import br.com.ada.compra.moeda.comum.Moeda;
 import lombok.Data;
 
 import java.math.BigDecimal;

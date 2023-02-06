@@ -1,6 +1,5 @@
-package br.com.ada.compra.moeda.dto;
+package br.com.ada.compra.moeda.cliente;
 
-import br.com.ada.compra.moeda.model.Cliente;
 import lombok.*;
 
 import java.time.LocalDate;
