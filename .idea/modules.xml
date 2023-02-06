@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cliente/cliente.iml" filepath="$PROJECT_DIR$/cliente/cliente.iml" />
+      <module fileurl="file://$PROJECT_DIR$/compra/compra.iml" filepath="$PROJECT_DIR$/compra/compra.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/compra-moeda.iml" filepath="$PROJECT_DIR$/.idea/compra-moeda.iml" />
       <module fileurl="file://$PROJECT_DIR$/compra.moeda/compra.moeda.iml" filepath="$PROJECT_DIR$/compra.moeda/compra.moeda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comum/comum.iml" filepath="$PROJECT_DIR$/comum/comum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cotacao/cotacao.iml" filepath="$PROJECT_DIR$/cotacao/cotacao.iml" />
     </modules>
   </component>
 </project>
