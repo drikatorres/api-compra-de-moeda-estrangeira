@@ -1,6 +1,6 @@
 package mscotacao;
 
-import br.com.ada.compra.moeda.comum.Moeda;
+import mscomum.Moeda;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;

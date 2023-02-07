@@ -1,5 +1,23 @@
 
 s
 Ccompra.moeda/src/main/java/br/com/ada/compra/moeda/Application.java,8/9/89b5f28984c3c06b33cb9b88c0529f3232367475
-D
-compra.moeda/pom.xml,7/3/7322811e3bbe723017b406ee3d5e5f9b6d9a169f
+@
+mscompra/pom.xml,d/4/d4dde98833a4384df00287d40db422720b473d03
+^
+.mscliente/src/main/java/mscliente/Cliente.java,2/8/28ce5bf72d59c44471af203f75971d4165c02dc1
+[
++mscompra/src/main/java/mscompra/Compra.java,5/c/5c476e6df01a6e948c37714189e244134e8afa88
+e
+5mscompra/src/main/java/mscompra/CompraRepository.java,c/4/c48110da2145ff42cc382ce3515c8bee74b308e1
+b
+2mscompra/src/main/java/mscompra/CompraService.java,8/4/841ee30d845e66e23c7a9a42f76a30464cc9faa6
+h
+8mscliente/src/main/java/mscliente/ClienteController.java,c/9/c92a5bb8f1ec06fe8fb803b94b74fd990c1b7ee6
+h
+8mscliente/src/main/java/mscliente/ClienteRepository.java,1/8/184e20d8048a04fbef511b4c8662da51fd744ff4
+e
+5mscliente/src/main/java/mscliente/ClienteService.java,0/3/03309fbd31761e2d2666622808410bee519fcb29
+a
+1mscliente/src/main/java/mscliente/ClienteDTO.java,f/e/fef82326c5daa98d4fea0670049dd4d45897ee17
+A
+mscliente/pom.xml,8/c/8c5174bf0526f65cb11d35ff2c58a12928ca28d8
