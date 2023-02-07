@@ -1,8 +1,7 @@
 package mscotacao;
 
-import br.com.ada.compra.moeda.comum.Moeda;
+import mscomum.Moeda;
 
-import javax.persistence.Entity;
 import java.math.BigDecimal;
 
 
