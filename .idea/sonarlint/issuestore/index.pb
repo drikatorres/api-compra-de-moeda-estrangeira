@@ -37,8 +37,6 @@ l
 <compra/src/main/java/br/com/ada/compra/CompraRepository.java,c/0/c08f1ff97bce711361da37adbe4951528dc89bf1
 r
 Bcompra/src/test/java/br/com/ada/compra/CompraApplicationTests.java,8/d/8d50837811f79bc2bf397880f1407459f34891e5
->
-compra/pom.xml,d/3/d37c549f983a81fcd67f2c8bfdeca1037bf62e0c
 [
 +comum/.mvn/wrapper/maven-wrapper.properties,8/b/8b822b7938e3c2a3f0ead71c915d981b09705bc2
 @
@@ -48,12 +46,6 @@ Bcompra/src/test/java/br/com/ada/compra/CompraApplicationTests.java,8/d/8d50837
 :
 
 comum/mvnw,8/6/8671b9d8132959e79c8c44bc3e9e49309465c175
-t
-Dcomum/src/main/java/br/com/ada/comum/EntidadeDuplicadaException.java,1/d/1d0cea8884b234c1f5dd6c6ba9f5e736a2c2682b
-_
-/comum/src/main/java/br/com/ada/comum/Moeda.java,5/0/503ea219946f65172559968d29a35a58e086f25d
-=
-comum/pom.xml,8/3/83d9228a5dca9079ce0f065f06326e5c266d7900
 <
 cotacao/mvnw,7/8/783dd7c65c09f31b4593ab15328f00371ed48c8a
 B
@@ -70,5 +62,3 @@ u
 Ecotacao/src/test/java/br/com/ada/cotacao/CotacaoApplicationTests.java,a/2/a279aa7549465e03d08f721ff4dba8f64aa2216d
 ?
 cotacao/pom.xml,1/9/19bd26723a0b05d09d25990d4e5cc6eab611c8f8
-S
-#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
