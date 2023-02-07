@@ -37,8 +37,6 @@ l
 <compra/src/main/java/br/com/ada/compra/CompraRepository.java,c/0/c08f1ff97bce711361da37adbe4951528dc89bf1
 r
 Bcompra/src/test/java/br/com/ada/compra/CompraApplicationTests.java,8/d/8d50837811f79bc2bf397880f1407459f34891e5
->
-compra/pom.xml,d/3/d37c549f983a81fcd67f2c8bfdeca1037bf62e0c
 [
 +comum/.mvn/wrapper/maven-wrapper.properties,8/b/8b822b7938e3c2a3f0ead71c915d981b09705bc2
 @

@@ -8,5 +8,13 @@
     <file url="file://$PROJECT_DIR$/comum/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/comum/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cotacao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscliente/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscliente/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscompra/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscompra/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscomum/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscomum/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscotacao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscotacao/src/main/resources" charset="UTF-8" />
   </component>
 </project>
