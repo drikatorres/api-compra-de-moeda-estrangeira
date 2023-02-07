@@ -7,20 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mscliente" />
-        <module name="compra.moeda" />
-        <module name="mscomum" />
-        <module name="mscompra" />
-        <module name="mscotacao" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cliente" target="11" />
       <module name="compra" target="11" />
+      <module name="compra.moeda" target="11" />
       <module name="comum" target="11" />
       <module name="cotacao" target="11" />
       <module name="microservico.comum" target="11" />
       <module name="ms.comum" target="11" />
+      <module name="mscliente" target="11" />
+      <module name="mscompra" target="11" />
+      <module name="mscomum" target="11" />
+      <module name="mscotacao" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

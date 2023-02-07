@@ -1,6 +1,6 @@
 package mscotacao;
 
-import mscomum.Moeda;
+import br.com.ada.compra.moeda.comum.Moeda;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -15,12 +15,10 @@ public class CotacaoService {
         this.webClient = webClientBuilder.baseUrl(url).build();
     }
 
-    public CotacaoDTO getCotacao(String moeda) {
-        if (!moeda.equals(Moeda.EUR) && !moeda.equals(Moeda.USD)) {
-            throw new IllegalArgumentException();
-        }
+    public CotacaoDTO getCotacao(Moeda moeda) {
+
         Mono<CotacaoDTO[]> response = webClient.get()
-                .uri("{moeda}", moeda)
+                .uri("{moeda}", moeda.toString().toUpperCase())
                 .accept(MediaType.APPLICATION_JSON)
                 .retrieve()
                 .bodyToMono(CotacaoDTO[].class).log();

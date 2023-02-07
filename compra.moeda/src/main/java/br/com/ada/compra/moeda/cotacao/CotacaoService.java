@@ -15,12 +15,10 @@ public class CotacaoService {
         this.webClient = webClientBuilder.baseUrl(url).build();
     }
 
-    public CotacaoDTO getCotacao(String moeda) {
-        if (!moeda.equals(Moeda.EUR) && !moeda.equals(Moeda.USD)) {
-            throw new IllegalArgumentException();
-        }
+    public CotacaoDTO getCotacao(Moeda moeda) {
+
         Mono<CotacaoDTO[]> response = webClient.get()
-                .uri("{moeda}", moeda)
+                .uri("{moeda}", moeda.toString().toUpperCase())
                 .accept(MediaType.APPLICATION_JSON)
                 .retrieve()
                 .bodyToMono(CotacaoDTO[].class).log();

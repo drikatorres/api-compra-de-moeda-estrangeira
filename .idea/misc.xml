@@ -4,16 +4,11 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/compra.moeda/pom.xml" />
         <option value="$PROJECT_DIR$/compra.moeda/src/cotacao/pom.xml" />
         <option value="$PROJECT_DIR$/cliente/pom.xml" />
         <option value="$PROJECT_DIR$/cotacao/pom.xml" />
         <option value="$PROJECT_DIR$/comum1/pom.xml" />
         <option value="$PROJECT_DIR$/ms.comum/pom.xml" />
-        <option value="$PROJECT_DIR$/mscomum/pom.xml" />
-        <option value="$PROJECT_DIR$/mscompra/pom.xml" />
-        <option value="$PROJECT_DIR$/mscliente/pom.xml" />
-        <option value="$PROJECT_DIR$/mscotacao/pom.xml" />
       </list>
     </option>
   </component>
